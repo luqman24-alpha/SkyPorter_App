@@ -72,7 +72,7 @@ class _ItineraryBottomSheetState extends State<ItineraryBottomSheet> {
 
               const SizedBox(height: 20),
 
-              // FIXED CARD CALL
+              //  CARD CALL
               buildItineraryCard(
                 title: "November Travel",
                 isExpanded: novemberExpanded,
@@ -185,171 +185,7 @@ class _ItineraryBottomSheetState extends State<ItineraryBottomSheet> {
                   ),
                 ),
               ),
-              // CARD 5
-              Card(
-                color: Colors.white,
-                elevation: 1,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  child: Row(
-                    children: [
-                      Checkbox(
-                        value: Business_Trip,
-                        onChanged: (val) {
-                          setState(() {
-                            Business_Trip = val ?? false;
-                          });
-                        },
-                      ),
-                      const Text(
-                        "Business Trip",
-                        style: TextStyle(
-                          fontSize: 14,
-                          fontFamily: "Poppins",
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                      const Spacer(),
-                      const Icon(Icons.keyboard_arrow_down),
-                    ],
-                  ),
-                ),
-              ),
-              // CARD 6
-              Card(
-                color: Colors.white,
-                elevation: 1,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  child: Row(
-                    children: [
-                      Checkbox(
-                        value: Business_Trip,
-                        onChanged: (val) {
-                          setState(() {
-                            Business_Trip = val ?? false;
-                          });
-                        },
-                      ),
-                      const Text(
-                        "Business Trip",
-                        style: TextStyle(
-                          fontSize: 14,
-                          fontFamily: "Poppins",
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                      const Spacer(),
-                      const Icon(Icons.keyboard_arrow_down),
-                    ],
-                  ),
-                ),
-              ),
-              // CARD 7
-              Card(
-                color: Colors.white,
-                elevation: 1,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  child: Row(
-                    children: [
-                      Checkbox(
-                        value: Business_Trip,
-                        onChanged: (val) {
-                          setState(() {
-                            Business_Trip = val ?? false;
-                          });
-                        },
-                      ),
-                      const Text(
-                        "Business Trip",
-                        style: TextStyle(
-                          fontSize: 14,
-                          fontFamily: "Poppins",
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                      const Spacer(),
-                      const Icon(Icons.keyboard_arrow_down),
-                    ],
-                  ),
-                ),
-              ),
-              // CARD 8
-              Card(
-                color: Colors.white,
-                elevation: 1,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  child: Row(
-                    children: [
-                      Checkbox(
-                        value: Business_Trip,
-                        onChanged: (val) {
-                          setState(() {
-                            Business_Trip = val ?? false;
-                          });
-                        },
-                      ),
-                      const Text(
-                        "Business Trip",
-                        style: TextStyle(
-                          fontSize: 14,
-                          fontFamily: "Poppins",
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                      const Spacer(),
-                      const Icon(Icons.keyboard_arrow_down),
-                    ],
-                  ),
-                ),
-              ),
-              // CARD 9
-              Card(
-                color: Colors.white,
-                elevation: 1,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  child: Row(
-                    children: [
-                      Checkbox(
-                        value: Business_Trip,
-                        onChanged: (val) {
-                          setState(() {
-                            Business_Trip = val ?? false;
-                          });
-                        },
-                      ),
-                      const Text(
-                        "Business Trip",
-                        style: TextStyle(
-                          fontSize: 14,
-                          fontFamily: "Poppins",
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                      const Spacer(),
-                      const Icon(Icons.keyboard_arrow_down),
-                    ],
-                  ),
-                ),
-              ),
+              
               const SizedBox(height: 20),
 
               SizedBox(
@@ -503,3 +339,4 @@ Widget buildItineraryCard({
     ),
   );
 }
+
